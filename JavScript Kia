@@ -214,6 +214,10 @@ $(document).ready(function() {
         {
             src: "kiatoto-georgia-mid",
             target: "#warapper-timer-p26056-GDYW"
+        },
+        {
+            src: "kiatoto-oslo",
+            target: "#warapper-timer-p31881-AWSL"
         }
     ];
 
