@@ -323,6 +323,19 @@ table tr td:first-child {
 div#promo-casino, div#promo-slot, div#promo-elottery, div#game-arcade {
     display: none !important;
 }
+/* Side Bar */
+.mb-sidenav .sidenav-header{
+    background-color: #111 !important;
+}
+.button-orange {
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+}
+.buttonlc2 {
+    box-shadow: inset 0 -4px 0 rgb(101 0 193) !important;
+}
+.mb-sidenav .side-link-container>li {
+    border-top: 1px solid #8a3be0;
+}
 </style>
 
 <script>
