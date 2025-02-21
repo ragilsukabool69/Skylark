@@ -1,0 +1,239 @@
+$(document).ready(function() {
+    const images = [{
+            src: "jnetoto-totomacau-5d",
+            target: "#warapper-timer-m51-TM5D"
+        },
+        {
+            src: "jnetoto-kingkong",
+            target: "#warapper-timer-m83-KK4D"
+        },
+        {
+            src: "jnetoto-totomacau-4d",
+            target: "#warapper-timer-m17-TM"
+        },
+        {
+            src: "jnetoto-hongkong-live",
+            target: "#warapper-timer-p64803-OIPV"
+        },
+        {
+            src: "jnetoto-japan",
+            target: "#warapper-timer-p41784-JNPV"
+        },
+        {
+            src: "jnetoto-texas-evening",
+            target: "#warapper-timer-p26020-TEPV"
+        },
+        {
+            src: "jnetoto-oregon-09",
+            target: "#warapper-timer-p10289-OSPV"
+        },
+        {
+            src: "jnetoto-oregon-12",
+            target: "#warapper-timer-p10290-ODPV"
+        },
+        {
+            src: "jnetoto-rhode-mid-day",
+            target: "#warapper-timer-p37321-RMPV"
+        },
+        {
+            src: "jnetoto-maryland-evening",
+            target: "#warapper-timer-p37319-MYPV"
+        },
+        {
+            src: "jnetoto-georgia-night",
+            target: "#warapper-timer-p37318-GNPV"
+        },
+        {
+            src: "jnetoto-georgia-mid",
+            target: "#warapper-timer-p37317-GDPV"
+        },
+        {
+            src: "jnetoto-kingston",
+            target: "#warapper-timer-p76237-GIPV"
+        },
+        {
+            src: "jnetoto-hongkong-live-day",
+            target: "#warapper-timer-p66440-KLPV"
+        },
+        {
+            src: "jnetoto-lima-pool",
+            target: "#warapper-timer-p76330-MIPV"
+        },
+        {
+            src: "jnetoto-freetown",
+            target: "#warapper-timer-p76213-VZPV"
+        },
+        {
+            src: "jnetoto-delaware-day",
+            target: "#warapper-timer-p37322-DYPV"
+        },
+        {
+            src: "jnetoto-delaware-night",
+            target: "#warapper-timer-p37323-DWPV"
+        },
+        {
+            src: "jnetoto-maryland-mid",
+            target: "#warapper-timer-p37320-MDPV"
+        },
+        {
+            src: "jnetoto-wisconsin-mid",
+            target: "#warapper-timer-p37324-WMPV"
+        },
+        {
+            src: "jnetoto-georgia-evening",
+            target: "#warapper-timer-p37316-GEPV"
+        },
+        {
+            src: "jnetoto-california",
+            target: "#warapper-timer-p12301-CFPV"
+        },
+        {
+            src: "jnetoto-buffalo",
+            target: "#warapper-timer-p76174-FAPV"
+        },
+        {
+            src: "jnetoto-north-korea",
+            target: "#warapper-timer-p76170-ORPV"
+        },
+        {
+            src: "jnetoto-germany",
+            target: "#warapper-timer-p76176-MAPV"
+        },
+        {
+            src: "jnetoto-portland",
+            target: "#warapper-timer-p76173-RTPV"
+        },
+        {
+            src: "jnetoto-bullseye",
+            target: "#warapper-timer-p9674-BUPV"
+        },
+        {
+            src: "jnetoto-korea",
+            target: "#warapper-timer-p9676-KRPV"
+        },
+        {
+            src: "jnetoto-jakarta",
+            target: "#warapper-timer-p9673-JKPV"
+        },
+        {
+            src: "jnetoto-pcso",
+            target: "#warapper-timer-p9675-PCPV"
+        },
+        {
+            src: "jnetoto-taiwan",
+            target: "#warapper-timer-p9668-TAPV"
+        },
+        {
+            src: "jnetoto-kentucky-mid",
+            target: "#warapper-timer-p9664-KMPV"
+        },
+        {
+            src: "jnetoto-carolina-day",
+            target: "#warapper-timer-p9665-CDPV"
+        },
+        {
+            src: "jnetoto-kupang",
+            target: "#warapper-timer-p9672-KUPV"
+        },
+        {
+            src: "jnetoto-thailand",
+            target: "#warapper-timer-p9663-THPV"
+        },
+        {
+            src: "jnetoto-cambodia",
+            target: "#warapper-timer-p9667-CAPV"
+        },
+        {
+            src: "jnetoto-nusatoto",
+            target: "#warapper-timer-p9671-NTPV"
+        },
+        {
+            src: "jnetoto-china",
+            target: "#warapper-timer-p9669-CHPV"
+        },
+        {
+            src: "jnetoto-singapore",
+            target: "#warapper-timer-p9680-SPPV"
+        },
+        {
+            src: "jnetoto-jepang",
+            target: "#warapper-timer-p9677-JPPV"
+        },
+        {
+            src: "jnetoto-virginia-day",
+            target: "#warapper-timer-p9666-VDPV"
+        },
+        {
+            src: "jnetoto-singapore25",
+            target: "#warapper-timer-p9662-SNPV"
+        },
+        {
+            src: "jnetoto-nusapool",
+            target: "#warapper-timer-p9670-NUPV"
+        },
+        {
+            src: "jnetoto-boston",
+            target: "#warapper-timer-p75806-BTPV"
+        },
+        {
+            src: "jnetoto-texas-night",
+            target: "#warapper-timer-p26021-TNPV"
+        },
+        {
+            src: "jnetoto-texas-morning",
+            target: "#warapper-timer-p26022-TMPV"
+        },
+        {
+            src: "jnetoto-mongolia",
+            target: "#warapper-timer-p15840-MOPV"
+        },
+        {
+            src: "jnetoto-munchen",
+            target: "#warapper-timer-p63363-MCPV"
+        },
+        {
+            src: "jnetoto-vietnam",
+            target: "#warapper-timer-p10299-VNPV"
+        },
+        {
+            src: "jnetoto-bogota",
+            target: "#warapper-timer-p76175-GOPV"
+        },
+        {
+            src: "jnetoto-oregon-03",
+            target: "#warapper-timer-p10287-OTPV"
+        },
+        {
+            src: "jnetoto-oregon-06",
+            target: "#warapper-timer-p10288-ONPV"
+        },
+        {
+            src: "jnetoto-phoenix-4d",
+            target: "#warapper-timer-p76172-OEPV"
+        },
+        {
+            src: "jnetoto-atlanta",
+            target: "#warapper-timer-p76171-LAPV"
+        },
+        {
+            src: "jnetoto-new-jersey-mid",
+            target: "#warapper-timer-p12489-NEPV"
+        },
+        {
+            src: "jnetoto-missouri-mid",
+            target: "#warapper-timer-p12490-MIVP"
+        },
+        {
+            src: "jnetoto-moskow",
+            target: "#warapper-timer-p76177-SKPV"
+        },
+        {
+            src: "jnetoto-texas-day",
+            target: "#warapper-timer-p26019-TDPV"
+        }
+    ];
+
+    images.forEach(function(img) {
+        $('<img class="gambar-togel" src="https://takenupload.com/' + img.src + '">').insertBefore(img.target);
+    });
+});
