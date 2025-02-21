@@ -1,0 +1,223 @@
+$(document).ready(function() {
+    const images = [{
+            src: "kiatoto-totomacau-5d",
+            target: "#warapper-timer-m51-TM5D"
+        },
+        {
+            src: "kiatoto-king-kong-4d",
+            target: "#warapper-timer-m83-KK4D"
+        },
+        {
+            src: "kiatoto-totomacau-4d",
+            target: "#warapper-timer-m17-TM"
+        },
+        {
+            src: "kiatoto-hongkong-live-night",
+            target: "#warapper-timer-p29431-OGAY"
+        },
+        {
+            src: "kiatoto-winconsin-mid",
+            target: "#warapper-timer-p26063-WMYW"
+        },
+        {
+            src: "kiatoto-georgia-night",
+            target: "#warapper-timer-p26057-GNYW"
+        },
+        {
+            src: "kiatoto-rhode-mid-day",
+            target: "#warapper-timer-p26060-RMYW"
+        },
+        {
+            src: "kiatoto-maryland-mid",
+            target: "#warapper-timer-p26059-MDYW"
+        },
+        {
+            src: "kiatoto-delaware-night",
+            target: "#warapper-timer-p26062-DNYW"
+        },
+        {
+            src: "kiatoto-atlanta",
+            target: "#warapper-timer-p30536-DXAW"
+        },
+        {
+            src: "kiatoto-bogota",
+            target: "#warapper-timer-p30540-SOAW"
+        },
+        {
+            src: "kiatoto-portland",
+            target: "#warapper-timer-p30538-SFAW"
+        },
+        {
+            src: "kiatoto-bullseye",
+            target: "#warapper-timer-p20714-AWBU"
+        },
+        {
+            src: "kiatoto-china",
+            target: "#warapper-timer-p20717-AWCH"
+        },
+        {
+            src: "kiatoto-korea",
+            target: "#warapper-timer-p20718-AWKO"
+        },
+        {
+            src: "kiatoto-cambodia",
+            target: "#warapper-timer-p20713-AWCM"
+        },
+        {
+            src: "kiatoto-thailand",
+            target: "#warapper-timer-p20712-AWTH"
+        },
+        {
+            src: "kiatoto-nusa-toto",
+            target: "#warapper-timer-p20716-AWNU"
+        },
+        {
+            src: "kiatoto-oregon-12",
+            target: "#warapper-timer-p20733-AWDB"
+        },
+        {
+            src: "kiatoto-oregon-09",
+            target: "#warapper-timer-p20732-AWOS"
+        },
+        {
+            src: "kiatoto-jakarta",
+            target: "#warapper-timer-p20722-AWJA"
+        },
+        {
+            src: "kiatoto-vietnam",
+            target: "#warapper-timer-p20729-AWVI"
+        },
+        {
+            src: "kiatoto-new-jersey-mid",
+            target: "#warapper-timer-p20734-AWNJ"
+        },
+        {
+            src: "kiatoto-california",
+            target: "#warapper-timer-p20736-AWCL"
+        },
+        {
+            src: "kiatoto-singapore-25",
+            target: "#warapper-timer-p20721-AWSG"
+        },
+        {
+            src: "kiatoto-taiwan",
+            target: "#warapper-timer-p20724-AWTW"
+        },
+        {
+            src: "kiatoto-missouri-mid",
+            target: "#warapper-timer-p20735-AWMM"
+        },
+        {
+            src: "kiatoto-virginia-day",
+            target: "#warapper-timer-p20727-AWVD"
+        },
+        {
+            src: "kiatoto-mongolia",
+            target: "#warapper-timer-p20737-AWMO"
+        },
+        {
+            src: "kiatoto-kentucky-mid",
+            target: "#warapper-timer-p20726-AWKM"
+        },
+        {
+            src: "kiatoto-pcso",
+            target: "#warapper-timer-p20723-AWPC"
+        },
+        {
+            src: "kiatoto-jepang",
+            target: "#warapper-timer-p20725-AWJE"
+        },
+        {
+            src: "kiatoto-carolina-day",
+            target: "#warapper-timer-p20728-AWCD"
+        },
+        {
+            src: "kiatoto-phoenix-4d",
+            target: "#warapper-timer-p30537-SVAW"
+        },
+        {
+            src: "kiatoto-germany",
+            target: "#warapper-timer-p30541-BIAW"
+        },
+        {
+            src: "kiatoto-moskow",
+            target: "#warapper-timer-p30542-DHAW"
+        },
+        {
+            src: "kiatoto-georgia-eve",
+            target: "#warapper-timer-p26055-GEYW"
+        },
+        {
+            src: "kiatoto-north-korea",
+            target: "#warapper-timer-p30535-XSAW"
+        },
+        {
+            src: "kiatoto-munchen",
+            target: "#warapper-timer-p29368-HHAW"
+        },
+        {
+            src: "kiatoto-hongkong-live-day",
+            target: "#warapper-timer-p29462-KLAW"
+        },
+        {
+            src: "kiatoto-kingston",
+            target: "#warapper-timer-p30677-KIAW"
+        },
+        {
+            src: "kiatoto-boston",
+            target: "#warapper-timer-p30001-BTAW"
+        },
+        {
+            src: "kiatoto-nusa",
+            target: "#warapper-timer-p20719-AWNS"
+        },
+        {
+            src: "kiatoto-kupang",
+            target: "#warapper-timer-p20710-AWKU"
+        },
+        {
+            src: "kiatoto-singapore",
+            target: "#warapper-timer-p20720-AWSI"
+        },
+        {
+            src: "kiatoto-oregon-03",
+            target: "#warapper-timer-p20730-AWOT"
+        },
+        {
+            src: "kiatoto-oregon-06",
+            target: "#warapper-timer-p20731-AWOE"
+        },
+        {
+            src: "kiatoto-buffalo",
+            target: "#warapper-timer-p30539-XPAW"
+        },
+        {
+            src: "kiatoto-freetown",
+            target: "#warapper-timer-p30556-GPAW"
+        },
+        {
+            src: "kiatoto-lima",
+            target: "#warapper-timer-p31284-LLAW"
+        },
+        {
+            src: "kiatoto-delaware-day",
+            target: "#warapper-timer-p26061-DWYW"
+        },
+        {
+            src: "kiatoto-japan",
+            target: "#warapper-timer-p27053-JNAW"
+        },
+        {
+            src: "kiatoto-maryland-eve",
+            target: "#warapper-timer-p26058-MEYW"
+        },
+        {
+            src: "kiatoto-georgia-mid",
+            target: "#warapper-timer-p26056-GDYW"
+        }
+    ];
+
+    images.forEach(function(img) {
+        $('<img class="gambar-togel" src="https://takenupload.com/' + img.src + '">').insertBefore(img.target);
+    });
+});
