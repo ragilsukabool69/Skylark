@@ -1,0 +1,334 @@
+<!-- UPDATE TAMPILAN MOBILE JNE 2025 -->
+<style>
+    /* Header Login */
+.buttn-header-deposit-butt0 {
+    font-size: 1.7rem !important;
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%) !important;
+    box-shadow: inset 0 0 5px 3px #8400ff, inset 0 2px 0 0 #fff !important;
+}
+header.header-after-login .header-wrapper .buttn-header-deposit {
+    font-size: 1.7rem !important;
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%) !important;
+    box-shadow: inset 0 0 5px 3px #8400ff, inset 0 2px 0 0 #fff !important;
+}
+.lobby-content-top {
+    background: url(https://takenupload.com/67b040016aeb4) !important;
+    padding: 1.5rem 2rem !important;
+    background-size: 100% !important;
+    border-bottom: 2px solid #fff000 !important;
+}
+.btn-refresh-balance {
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%) !important;
+    box-shadow: inset 0 0 5px 3px #8400ff, inset 0 2px 0 0 #fff;
+    color: #fff;
+}
+.button-lobby-container .button-lobby-wrapper>.button-filter-lobby {
+    background: linear-gradient(to bottom,#00f5f6 0%,#23abff 100%);
+    border: 2px solid #00f9ff !important;
+    color: #000000 !important;
+}
+.input-cari-wrapper input#cari-game {
+    border: 2px solid #8a3be0 !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    border-radius: 15px !important;
+}
+.input-cari-wrapper.show {
+    margin-bottom: -5px !important;
+}
+p.pasarantogel {
+    background: linear-gradient(to bottom,#00f5f6 0%,#23abff 100%);
+    border: 2px solid #00f9ff;
+    color: #000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    font-weight: 700;
+}
+.carousel {
+    display: none;
+}
+    /* Konten Utama */
+.title-game-child {
+    order: -1;
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    text-align: center;
+    border: 1px solid #8a3be0;
+}
+.slot-wrapper {
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #8a3be0;
+    align-content: center;
+}
+.live-header {
+    font-weight: bold;
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    border: 1px solid #8a3be0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.idnlive a, .pp-container a {
+    border: 1px solid #8a3be0;
+    border-radius: 10px !important;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    color: #ffffff !important;
+}
+.idnlive-new-container {
+    border: 1px solid #8a3be0;
+    border-radius: 15px;
+}
+.action-button {
+    border: 1px solid #8a3be0 !important;
+    border-radius: 10px !important;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    color: #ffffff !important;    
+}
+.label-arrow {
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    color: #ffffff !important;
+}
+#game-live .game-wrapper :nth-child(3) {
+    background: url(https://takenupload.com/67a9b74bdd38a) !important;
+    background-size: 100% 100% !important;
+    border-radius: 11px;
+}
+#game-elottery .slot-header {
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    border: 1px solid #8a3be0 !important;
+    padding: 10px;
+    width: 100%;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+.border-live {
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    border: 1px solid #8a3be0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 4px;
+}
+.arcade-content {
+    color: #fff;
+}
+div.game-lobby-content {
+    order: -1;
+    border: 1px solid #8a3be0;
+}
+.game-title {
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    padding: 5px;
+    box-shadow: 0 0px 0px 2px gold;
+    width: 100%;
+    margin-top: -3em;
+    margin-bottom: 1.5em
+}
+img.gambar-togel {
+    position: absolute;
+    height: 28px;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    padding: 2px;
+    background: #00000000;
+    border-right: 1px solid gold;
+}
+.game-togel a.game-lobby-content, #game-live a.game-lobby-content, div#lobtoto>a {
+    background-size: 100% 300% !important;
+    background: linear-gradient(48deg,  #00000000, #000000ab, #000000) !important;
+    border: 1px solid #8a3be0;
+}
+.game-wrapper .game-lobby-content .game-title {
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 500;
+    padding-top: 5rem !important;
+    padding-left: 25px;
+}
+#game-live .game-title {
+    padding: .5em 0;
+}
+.main-content { 
+    background: none !important;
+}
+.main-content.peraturan-light {
+    background: url(https://takenupload.com/67b03fc9482ab) !important;
+    background-size: 100% !important;
+    color: white;
+}
+.peraturan-button-wrapper .btn-peraturan {
+    background: linear-gradient(to bottom,#00f5f6 0%,#0b669e 100%);
+    border: 2px solid #00f9ff !important;
+    color: #000000 !important;
+}
+.marquee-child {
+    color: #fff !important;
+}
+div.inner-wrap {
+    border: 1px solid #8a3be0;
+    background-color: transparent;
+    background: black;
+    padding: 5px !important;
+    border-radius: 10px;
+}
+.body-mobile main {
+    background: url(https://takenupload.com/67b03fc9482ab) !important;
+    background-size: 100% !important;
+}
+.game-angka {
+    padding-bottom: 10px;
+    color: gold
+}
+.effect7 {
+    height: auto !important;
+}
+header.header-after-login .header-wrapper {
+    border-bottom: 2px solid #fff000;
+}
+.game-wrapper .game-lobby-content .game-lobby-bottom .timer-game {
+    color: #00f8ff !important;
+}
+.game-wrapper .game-lobby-content .game-angka .lobby-game-angka-keluar {
+    color: gold !important;
+    font-size: 3rem !important;
+}
+.slot-content {
+    background: #ffffff00 !important;
+}
+.slot-content img {
+    border: 1px solid #8a3be0 !important;
+}
+.elottery-tag-img.tag--top-left {
+    border: none !important;
+}
+.slot-header-right button {
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: inset 0 0 5px 3px #00ffeb, inset 0 2px 0 0 #fff;
+    background: linear-gradient(to bottom, #00ffeb 0%, #000000 100%) !important;
+}
+    /* Menu Refferal */
+.referral-load {
+    background: none !important;
+}
+.button-referral {
+    border: 1px solid #8a3be0 !important;
+    color: #fff !important;
+    background-color: #131313 !important;
+}
+.button {
+    box-shadow: inset 0 -4px 0 rgb(123 0 255) !important;
+}
+.color-grey {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid #8a3be0 !important;
+    border-radius: 5px;
+    padding: 5px;
+}
+.ref-my-10 {
+    color: #fff !important;
+    text-align: center;
+    background: #000 !important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    background: #000;
+}
+    /* Menu Transaksi */
+.button-reds {
+    border: 1px solid #8a3be0 !important;
+    color: #fff !important;
+    background-color: #131313 !important;  
+}
+    /* Menu Withdraw */
+.form-withdraw-container {
+    border: 1px solid #8a3be0 !important;
+    border-radius: 5px;
+    background: #000 !important;
+    padding: 6px;
+}
+.withdrwa-info {
+    background: #000;
+    border: 1px solid #8a3be0;
+    border-radius: 5px;
+}
+    /* Menu Deposit */
+.tab button {
+    border: 1px solid #8a3be0 !important;
+    color: #fff !important;
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%) !important;  
+    padding: 5px;
+    margin-bottom: 5px;
+}
+    /* Menu History */
+.-btn-container .btn-games-wrapper .bgamestn-game-hs {
+    border: 1px solid #8a3be0 !important;
+}
+.button-history-container .button-history-wrapper>.btn-filter {
+    background: linear-gradient(to bottom,#00f5f6 0%,#23abff 100%);
+    border: 2px solid #00f9ff !important;
+    color: #000000 !important;
+}
+.games-btn-container .btn-games-wrapper .btn-game-hs {
+    border: 1px solid #8a3be0 !important;
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%) !important;
+}
+.content-history .table-history-warapper {
+    border: 1px solid #8a3be0 !important;
+}
+table tr td:first-child {
+    border-left: solid 1px !important;
+}
+    /* Gambar Live Casino */
+.idnlive a, .pp-container a {
+    border: 1px solid #8a3be0;
+    border-radius: 10px !important;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%) !important;
+    color: #ffffff !important;
+}
+    /* Menu Promosi */
+.promosi-content-container {
+    margin-bottom: 0px !important;
+}
+.promosi-content-container .promosi-content {
+    display: flex !important;
+    flex-direction: row !important;
+    overflow: hidden !important;
+    border-radius: 0 0 0.5rem 0.5rem !important;
+    z-index: 1 !important;
+}
+.promosi-content-container .promosi-content .promosi-btn-wrapper {
+    width: 14% !important;
+    height: 100% !important;
+    display: flex !important;
+}
+.promosi-content-container .promosi-content .promosi-btn-wrapper .btn-promo#btn-promo-more {
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%) !important;
+    color: #fff !important;
+    width: 100% !important;
+    height: 73px !important;
+    border-radius: 0px 5px 5px 0px !important;
+    margin-top: 0px !important;
+    padding: 3px !important;
+    border: 1px solid #8a3be0 !important;
+}
+/* Tab Tombol Casino, Slot, E-lottery, Arcade */
+div#promo-casino, div#promo-slot, div#promo-elottery, div#game-arcade {
+    display: none !important;
+}
+</style>
+
+<script>
+    $(document).ready(function() {
+        $('<div style=margin-top:5px class=kotak3><a href=https://goodlink.click/PrediksiJne><img alt=JNETOTO src=https://takenupload.com/67b5c11fde44c style="width:100%;border:3px groove #8a3be0;border-radius:10px"></a><div style=margin-top:5px;margin-bottom:5px><a href=https://goodlink.click/RTPVIPJNE rel="noopener noreferrer nofollow"target=_blank><p class=pasarantogel>RTP GACOR</p></a></div></div>').insertBefore(".game-togel");
+    });
+</script>
+<script src="https://jnetogel.b-cdn.net/pasaran.js"></script>
+<!-- UPDATE TAMPILAN MOBILE JNE 2025 -->
