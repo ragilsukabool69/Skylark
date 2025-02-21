@@ -146,7 +146,6 @@ img.gambar-togel {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    font-weight: bold;
     padding-top: 5rem !important;
     padding-left: 25px;
 }
