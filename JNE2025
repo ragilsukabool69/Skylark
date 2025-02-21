@@ -334,7 +334,7 @@ div#promo-casino, div#promo-slot, div#promo-elottery, div#game-arcade {
     box-shadow: inset 0 -4px 0 rgb(101 0 193) !important;
 }
 .mb-sidenav .side-link-container>li {
-    border-top: 1px solid #8a3be0;
+    background: linear-gradient(270deg, #2d005f, #000000);
 }
 </style>
 
