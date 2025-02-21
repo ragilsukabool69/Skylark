@@ -230,6 +230,10 @@ $(document).ready(function() {
         {
             src: "jnetoto-texas-day",
             target: "#warapper-timer-p26019-TDPV"
+        },
+        {
+            src: "jnetoto-oslo",
+            target: "#warapper-timer-p76395-PVSL"
         }
     ];
 
