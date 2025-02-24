@@ -335,6 +335,38 @@ div#promo-casino, div#promo-slot, div#promo-elottery, div#game-arcade {
 .mb-sidenav .side-link-container>li {
     background: linear-gradient(270deg, #2d005f, #000000);
 }
+/* Perbaikan Menu Depo Qris */
+div#injectautodepoqris {
+    justify-content: center;
+}
+h1.pesan-rahasia {
+    background: linear-gradient(to bottom, #2a0341  0%, #260475  100%);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 12px 18px !important;
+    font-size: 12px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    animation: borderAnimation 2s ease-in-out infinite;
+    text-align: center;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+/* Definisi animasi borderAnimation */
+@keyframes borderAnimation {
+    0% {
+        border-color: #fff;
+    }
+    50% {
+        border-color: #8a3be0 ;
+    }
+    100% {
+        border-color: #fff;
+    }
+}
 </style>
 
 <script>
