@@ -16,6 +16,28 @@ header.header-after-login .header-wrapper .buttn-header-deposit {
     padding: 1.5rem 2rem !important;
     background-size: 100% !important;
     border-bottom: 2px solid #fff000 !important;
+    position: relative;
+}
+.lobby-content-top::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, transparent, transparent, transparent, transparent, #ffffff5e, transparent, transparent, transparent, transparent, transparent);
+    background-size: 1000% 1000%;
+    animation: lightEffect 8s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes lightEffect {
+    0% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: -100% 0%; 
+    }
 }
 .btn-refresh-balance {
     background: linear-gradient(to bottom, #2a0341  0%, #260475  100%) !important;
