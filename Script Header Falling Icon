@@ -1,0 +1,106 @@
+<script>
+$(document).ready(function() {
+    // Daftar gambar ikon dengan sumber URL
+    const images = [
+        { src: "https://takenupload.com/67bd6a10beb0a", target: ".header-wrapper" },
+        { src: "https://takenupload.com/67bd6a10cb98f", target: ".header-wrapper" },
+        { src: "https://takenupload.com/67bd6a10d8cdc", target: ".header-wrapper" },
+        { src: "https://takenupload.com/67bd6c9264b83", target: ".header-wrapper" },
+        { src: "https://takenupload.com/67bd6c927be95", target: ".header-wrapper" }
+    ];
+
+    // Looping untuk menambahkan gambar ke dalam header
+    images.forEach(function(img) {
+        $('<img class="snow-icon" src="' + img.src + '">').appendTo(img.target);
+    });
+});
+
+</script>
+<Style>
+/* Header Styles */
+.header-wrapper {
+    position: relative;
+    background-color: #000;
+    height: 6.5rem;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menambahkan animasi salju */
+.snow-icon {
+    position: absolute;
+    top: -20px;
+    width: 24px !important;
+    height: 24px;
+    animation: snowfall linear infinite;
+    opacity: 1;
+    pointer-events: none;
+}
+
+/* Animasi salju jatuh */
+@keyframes snowfall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(10vh) rotate(90deg);
+        opacity: 0.5;
+    }
+}
+
+/* Variasi ukuran dan kecepatan untuk setiap gambar */
+.snow-icon:nth-child(1) {
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    width: 24px !important;
+    height: 24px;
+    left: 60%;
+    opacity: 1;
+    z-index: 10;
+}
+
+.snow-icon:nth-child(2) {
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    width: 18px !important;
+    height: 18px;
+    left: 90% !important;
+    opacity: 1;
+    z-index: 9;
+}
+
+.snow-icon:nth-child(3) {
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    width: 20px !important;
+    height: 20px;
+    left: 50%;
+    opacity: 1;
+    z-index: 8;
+}
+
+.snow-icon:nth-child(4) {
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    width: 22px !important;
+    height: 22px;
+    left: 80%;
+    opacity: 1;
+    z-index: 7;
+}
+
+.snow-icon:nth-child(5) {
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    width: 16px !important;
+    height: 16px;
+    left: 30%;
+    opacity: 1;
+    z-index: 6;
+}
+</Style>
