@@ -1,0 +1,27 @@
+Mobile 
+<style>
+.navbar-fixed-top .navbar-header .navbar-brand {
+    background: url(https://takenupload.com/67bec1035ebb9) !important;
+    width: 260px !important;
+    height: 63px !important;
+    background-size: cover !important;
+    background-position: center;
+}
+</style>
+
+Desktop
+<script>
+    window.onload = function() {
+        // Mendapatkan semua elemen <img> di halaman
+        var images = document.querySelectorAll('img');
+        
+        // Loop untuk memeriksa setiap gambar
+        images.forEach(function(img) {
+            // Cek apakah src mengandung '/assets/img/alt/logo.png'
+            if (img.src.includes('/assets/img/alt/logo.png')) {
+                // Mengubah src menjadi URL baru
+                img.src = "https://takenupload.com/67bec1035ebb9";
+            }
+        });
+    };
+</script>
