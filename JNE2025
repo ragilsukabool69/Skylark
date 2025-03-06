@@ -376,7 +376,13 @@ h1.pesan-rahasia {
     font-weight: bold;
     pointer-events: none;
 }
-
+.panel-grey {
+  background: transparent !important;
+  text-align: center;
+  margin: 5px;
+  border: 4px double gold;
+  border-radius: 5px;
+}
 /* Definisi animasi borderAnimation */
 @keyframes borderAnimation {
     0% {
